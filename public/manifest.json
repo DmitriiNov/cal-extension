@@ -1,0 +1,19 @@
+{
+	"name": "Calendar Extension",
+	"description": "This extension generates ICS files for your calendar events. Icon author - https://www.iconfinder.com/paomedia",
+	"version": "1.0",
+	"manifest_version": 3,
+	"permissions": [
+	   "activeTab",
+	   "scripting"
+	],
+	"background": {
+	   "service_worker": "worker.js"
+	},
+	"icons": {
+		"16": "icons/16.png",
+		"48": "icons/48.png",
+	   "128": "icons/128.png"
+	},
+	"action": {}
+ }
