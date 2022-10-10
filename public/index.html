@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="imported/g_fonts.css">
+	<link rel="stylesheet" href="imported/normalize.css">
+	<link rel="stylesheet" href="imported/milligram.css">
+	<style src="index.css"></style>
+</head>
+<body style="width: 300px; height: 300px">
+	<div class="container" style="margin-top: 10px;">
+		<div class="row">
+			<h4>New meeting</h4>
+		</div>
+		<div class="row">
+			<form>
+				<fieldset>
+				  	<label for="nameField">Name</label>
+				  	<input type="text" placeholder="Meeting name" id="nameField">
+
+				  	<label for="descriptionField">Description</label>
+				  	<textarea placeholder="Meeting description" id="descriptionField" style="resize:none; height: 100px"></textarea>
+
+				  	<input class="button-primary" type="submit" value="Send">
+				</fieldset>
+			</form>
+		</div>
+	</div>
+	<script src="popup.js"></script>
+</body>
+</html>
